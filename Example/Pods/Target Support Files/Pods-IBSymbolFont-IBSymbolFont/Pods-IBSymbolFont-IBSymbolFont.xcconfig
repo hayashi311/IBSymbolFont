@@ -1,0 +1,1 @@
+PODS_IBSYMBOLFONT_IBSYMBOLFONT_OTHER_LDFLAGS = -framework "MapKit" -framework "UIKit"

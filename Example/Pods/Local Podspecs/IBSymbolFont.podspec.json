@@ -1,0 +1,40 @@
+{
+  "name": "IBSymbolFont",
+  "version": "0.1.0",
+  "summary": "A short description of IBSymbolFont.",
+  "description": "                       An optional longer description of IBSymbolFont\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/IBSymbolFont",
+  "license": "MIT",
+  "authors": {
+    "ryota hayashi": "hayashi311@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/IBSymbolFont.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "resources": [
+    "Pod/Assets/*.ttf"
+  ],
+  "default_subspecs": [
+    "Core",
+    "UI"
+  ],
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Pod/Classes/Core"
+    },
+    {
+      "name": "UI",
+      "source_files": "Pod/Classes/UI"
+    }
+  ]
+}

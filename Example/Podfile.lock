@@ -1,0 +1,18 @@
+PODS:
+  - IBSymbolFont (0.1.0):
+    - IBSymbolFont/Core (= 0.1.0)
+    - IBSymbolFont/UI (= 0.1.0)
+  - IBSymbolFont/Core (0.1.0)
+  - IBSymbolFont/UI (0.1.0)
+
+DEPENDENCIES:
+  - IBSymbolFont (from `../`)
+
+EXTERNAL SOURCES:
+  IBSymbolFont:
+    :path: ../
+
+SPEC CHECKSUMS:
+  IBSymbolFont: 160e35ac2d2d317eb6fb9e4c492e7574ac02c276
+
+COCOAPODS: 0.36.0
