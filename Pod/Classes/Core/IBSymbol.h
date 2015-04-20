@@ -7,6 +7,7 @@
 
 extern const struct IBSymbol {
 __unsafe_unretained NSString *const Bug;
+    __unsafe_unretained NSString *const COW;
     __unsafe_unretained NSString *const Inbox;
     __unsafe_unretained NSString *const Rain;
     

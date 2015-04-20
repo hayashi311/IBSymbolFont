@@ -7,6 +7,7 @@
 
 const struct IBSymbol IBSymbol = {
         .Bug = @"bug",
+        .COW = @"c-o-w",
         .Inbox = @"inbox",
         .Rain = @"rain",
 };
